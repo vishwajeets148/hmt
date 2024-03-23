@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header {
+    display: flex;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .heading h1 {
+    font-size: 22px;
+    font-weight: 600;
+    word-spacing: 10px;
+    margin-top: 12px;
+
+  }
+  .heading p {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 12px;
+  }
+
+  .logo img {
+    width: 150px;
+    height: 70px;
+  }
+  
+  .seprator {
+    height: 2px;
+    background-color: black;
+  }
+  
+  .form-container {
+    margin: 0px 20px;
+  }
+  
+  .form-heading h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin:0;
+  }
+  .line1 {
+    display: flex;
+  }
+  
+  .line1 > div {
+
+  }
+  
+  p {
+    margin: 0; /* Remove default paragraph margin */
+  }
+  
+  .formboxdetails{
+     border: 1px solid black;
+   
+     
+  }
+
+  .name {
+    width: 100%;
+    /* Take half of the screen width */
+  }
+  
+ .agesex{
+    width: 100%; /*agesex divided into two part */
+ }
+ .ipd{
+    width: 100%;
+ }
+
+ .uhid{
+    width: 100%;
+ }
+
+ .chief{  
+    width: 100%;  /* divided into three equal part */
+ }
+
+
+ .line2 > div {
+   
+  }
+
+  .line2{
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .thinline{
+    height: 1px;
+    background: black;
+    margin-top: 12px;
+  }
+
+  .provisional{
+    width: 100%;
+  }
+
+  .thinline1{
+    height: 1px;
+    background: black;
+    margin: -12px;
+  }
+
+  .table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+  }
+  
+  .miss table{
+   width : 103%;
+   margin-top: -10px;
+   margin-left: 40vb;
+   height: 20vh;
+  }
+
+  .proposedsurg p{
+    margin-top: -80px;
+  }
+
+  .cardiosystem  table{
+    width: 150vb;
+    margin-top: -12.5vb;
+    list-style-type: none;
+  }
+  
+
+  .table tr td li{
+    padding: 3px;
+  }
+
+  .dets{
+    width: 100%;
+  }

@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header {
+    display: flex;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .heading h1 {
+    font-size: 22px;
+    font-weight: 600;
+    word-spacing: 10px;
+  }
+  .heading p {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+  }
+  .logo img {
+    width: 150px;
+    height: 70px;
+  }
+  
+  .seprator {
+    height: 2px;
+    background-color: black;
+  }
+  
+  .form-container {
+    margin: 0px 20px;
+  }
+  
+  .form-heading h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin:0;
+  }
+  .line1 {
+    display: flex;
+  }
+  
+  .name {
+    width: 50%; /* Take half of the screen width */
+  }
+  
+  .sex {
+    width: 30%; /* Take remaining half (divided into two equal parts) */
+  }
+
+  .bedno{
+    width: 20%;  
+}
+
+.surgeon{
+    width: 50%;
+}
+
+.anaesthetist{
+    width: 30%;
+}
+
+.date{
+  width: 20%;
+}
+
+.PreOperativeDiagnosis, .proposed{
+    width: 50%;
+}
+
+.briefhistory{
+    width: 100%;
+}
+.yesno{
+    list-style-type: none;
+}
+  .line1 > div {
+    margin: 10px;
+  }
+  
+  p {
+    margin: 0; /* Remove default paragraph margin */
+  }
+ 
+  .list,.yesno{
+    padding: 18px;
+    margin-top: -8px;
+  }
+
+ .list .yesno{
+    margin-left: 20px;
+}
+@media print{
+  *{
+    font-size: 12px;
+  }
+}

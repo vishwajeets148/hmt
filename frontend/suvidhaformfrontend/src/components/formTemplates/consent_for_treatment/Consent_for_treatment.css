@@ -1,0 +1,184 @@
+#hospitalName{
+  text-decoration: underline;
+  text-decoration-skip-ink: 1; 
+}
+.patient{
+  
+    width: 100%;
+}
+.modal-dialog .search-patients-modal{
+ margin: 200px;
+}
+.modal-body{
+    text-align: left;
+}
+.gender{
+    display: flex;
+}
+.gender>div{
+   margin: 5px;
+}
+/* modal button */
+.form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.form-container{
+    margin:5px 20px;
+   
+}
+
+.header{
+    display: flex;
+  
+
+   margin-bottom: 0px;
+}
+.heading{
+    text-align: center;
+}
+.heading  h1{
+    font-size: 22px;
+    font-weight: 600;
+    word-spacing: 10px;
+}
+.heading p {
+ font-weight: 600;
+ font-size: 16px;
+ text-align: center;
+}
+.logo img {
+    width: 150px;
+    height: 70px;
+}
+
+ hr.separato{
+    margin: 0;
+ }
+.consent-heading{
+    font-size: 16px;
+    text-decoration:underline;
+    
+    padding-bottom: 3px;
+}
+
+.consent-main-para{
+ font-size: 16px;
+ text-align: justify;
+}
+.hind-consent-main-para{
+  text-align: justify;
+}
+.hi{
+  font-size: 16px;
+}
+.ptients-sign{
+    margin-top: 40px;
+}
+.ptients-sign p{
+    margin:0;
+}
+.attendant-detail{
+
+    display: flex;
+  align-items: center;
+  margin-top: 5px;
+  height: 30px;
+ 
+}
+.attendant-detail>div{
+    margin: 15px;
+}
+.details-of-attendant{
+    display: flex;
+}
+.details-of-attendant ul{
+
+    list-style: none;
+    padding-inline-start: 0px;
+
+
+}
+.details-of-attendant ul li {
+    margin-bottom:10px;
+    padding-inline-start: 0px;
+    display: flex;
+}
+.sign{
+    margin-top: 10px;
+   
+}
+
+.serach{ display: flex;}
+
+.button{
+    padding: 20px;
+ 
+    text-align: right;
+    background-color: rgb(142, 184, 231);
+}
+@media print {
+    *{
+        font-size: 14px;
+    }
+    .header{
+        align-items: center;
+    }
+    .button{
+      display: none;
+    }
+    .attendant{
+        display: none;
+      }
+      .patient-btn{
+        display: none;
+      }
+      .doctor ,.attendant-detail{
+        display: none;
+      }
+      .navbar{
+        display: none;
+      }
+      .navbar-toggler{
+        display: none;
+      }
+      .dropdown-toggle::after{
+        display: none;
+      }
+      .heading{
+        align-items: center;
+        text-align: center;
+      } 
+      .select-button-doc{
+        display: none;
+      }
+  }
+
+  .patient-btn{
+    padding: 5px;
+  }
+  .attendant{
+    text-align: right;
+    padding: 20px;
+  }
+  #sign{
+    text-transform: uppercase;
+  }
+
+  #select{
+ width: 15%;
+  }
+
+  .containe{
+    margin:0 50px 0  50px ;
+  }
+  

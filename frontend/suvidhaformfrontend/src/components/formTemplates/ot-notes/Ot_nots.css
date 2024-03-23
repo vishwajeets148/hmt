@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header {
+    display: flex;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .heading h1 {
+    font-size: 22px;
+    font-weight: 600;
+    word-spacing: 10px;
+  }
+  .heading p {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+  }
+  .logo img {
+    width: 150px;
+    height: 70px;
+  }
+  
+  .seprator {
+    height: 2px;
+    background-color: black;
+  }
+  
+  .form-container {
+    margin: 0px 20px;
+  }
+  
+  .form-heading h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin:0;
+  }
+  .line1 {
+    display: flex;
+  }
+  
+  .line1 > div {
+    margin: 20px;
+  }
+  
+  p {
+    margin: 0; /* Remove default paragraph margin */
+  }
+
+  .name {
+    width: 50%; /* Take half of the screen width */
+  }
+  
+  .sex {
+    width: 50%; /* Take remaining half (divided into two equal parts) */
+  }
+  .ipd{
+    width: 50%;
+  }
+
+  .mr{
+    width: 25%;
+  }
+
+  .bed{
+    width: 25%;  
+}
+
+.outline tr td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.outline tr th {
+  border: 1px solid black;
+  text-align: center;
+}
+  .surgeon{
+    width: 50%;
+  }
+
+  .assistant{
+    width: 25%;
+  }
+
+  .anaesthetist{
+    width: 25%;
+  }
+
+  .sonof{
+    width: 100%;
+  }
+
+  

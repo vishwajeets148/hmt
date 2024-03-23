@@ -1,0 +1,28 @@
+
+@media print {
+    .button{
+      display: none;
+    }
+    .attendant{
+        display: none;
+      }
+      .patient-btn{
+        display: none;
+      }
+      .doctor ,.attendant-detail{
+        display: none;
+      }
+      .navbar{
+        display: none;
+      }
+      .navbar-toggler{
+        display: none;
+      }
+  }
+.modal-btn{
+  width: 200px;
+ height: 40px;
+}
+.doctor-btn{
+  width: 200px;
+}

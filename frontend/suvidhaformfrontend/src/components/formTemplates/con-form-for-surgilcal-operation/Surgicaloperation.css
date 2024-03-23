@@ -1,0 +1,116 @@
+*{
+    margin-right: 0;
+    padding-right: 0;
+ }
+ .header {
+   display: flex;
+   text-align: center;
+   margin-bottom: 0px;
+ }
+ .heading h1 {
+   font-size: 22px;
+   font-weight: 600;
+   word-spacing: 10px;
+ }
+ .heading p {
+   font-weight: 600;
+   width: 100%;
+   font-size: 12px;
+   text-align: center;
+ }
+
+ #phone1{
+  margin-top: -3%;
+
+ }
+ .para,.cerify1,.certify{
+  text-align: justify;
+ }
+ .logo img {
+   width: 150px;
+   height: 70px;
+ }
+ 
+ .seprator {
+   height: 2px;
+   background-color: black;
+   margin: 0;
+ }
+ .form-heading{
+   text-align: center;
+   text-decoration: underline;
+ }
+ .patients-details,
+         .details2,
+         .son {
+             display: flex;
+             margin: 0;
+             padding: 0;
+         }
+ 
+         .patients-details p,
+         .details2 p,
+         .son p {
+             margin: 5px 0; /* Adjust vertical margin as needed */
+             font-size: 0.9em; /* Adjust font size as needed */
+         }
+ 
+ .cr-no,
+ .uhid {
+   width: 30%;
+ }
+ .date {
+   width: 40%;
+ }
+ .name {
+   width:50%;
+ }
+ .sex,
+ .age {
+   width: 20%;
+ }
+ .sonof {
+   width: 100%;
+ }
+ .details2 {
+   display: flex;
+ }
+ .son {
+   display: flex;
+ }
+ 
+ .heading h3{
+     text-align: center;
+ }
+ 
+ 
+ .sign{
+     display: flex;
+     margin-top: 5px;
+ }
+ .witness-name-sign{
+     width: 60%;
+ }
+ .patients-sign{
+     width: 40%;
+ }
+ .cerify1{
+     margin-top: -5px;
+     margin-bottom: -2px;
+ }
+ .sign-anaes {
+ 
+     width: 50%; /* Take half of the screen width */
+     margin-left:60% ;
+ }
+ .certify>p{
+     margin: 0;
+ }
+ .cerify1>p{
+     margin: 0;
+ }
+ @media print{
+  *{
+    font-size: 13px;
+  }
+ }

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+      display: flex;
+      text-align: center;
+      margin-bottom: 0px;
+    }
+    .heading h1 {
+      font-size: 22px;
+      font-weight: 600;
+      word-spacing: 10px;
+    }
+    .heading p {
+      font-weight: 600;
+      font-size: 16px;
+      text-align: center;
+    }
+    .logo img {
+      width: 150px;
+      height: 70px;
+    }
+    
+    .seprator {
+      height: 2px;
+      background-color: black;
+    }
+    
+    .form-container {
+      margin: 0px 20px;
+    }
+    
+    .form-heading h3 {
+      text-align: center;
+      text-decoration: underline;
+      margin: 25px;
+    }
+     .para h4{
+        margin:0;
+     
+     }
+    .line1 {
+      display: flex;
+    }
+    
+    .name {
+      width: 40%;
+     /* Take half of the screen width */
+    }
+  
+    .directtrnasfer{
+      width: 50%;    /* Take half of the screen width */
+    }
+  
+    .line1 > div {
+      margin: 10px;
+    }
+    
+    p {
+      margin: 0;
+      margin-left: 20px; /* Remove default paragraph margin */
+    }
+    
+    .labelbox tr td{
+        border: 1px solid black;
+        text-align: center;
+        height: 10px;
+    }
+.labelbox table{
+    width: 400%;
+    margin-left: 50%;
+}
+
+   .vl {
+    border-left: 2px solid black;
+    height: 210px;
+  }
+  
+  .postoperativelist li{
+    margin: 10px;
+    list-style-type: none;
+  }

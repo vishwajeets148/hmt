@@ -1,0 +1,99 @@
+*{
+    margin:2px;
+    padding: 0;
+    }
+    .header {
+       display: flex;
+       text-align: center;
+       margin-bottom: 0px;
+     }
+     .heading{
+        margin-left: 70px;
+     }
+     .heading h1 {
+       font-size: 22px;
+       font-weight: 600;
+       word-spacing: 10px;
+     }
+     .heading p {
+       font-weight: 600;
+       font-size: 16px;
+       text-align: center;
+     }
+     .logo img {
+       width: 150px;
+       height: 70px;
+     }
+     
+     .seprator {
+       height: 2px;
+       background-color: black;
+       margin: 0;
+     }
+     .name-of-form h3{
+     text-align: center;
+     text-decoration: underline;
+     }
+     .date{
+        display: flex;
+     }
+     .vit{
+        width: 80%;
+     }
+     .dat{
+    width: 20%;
+     }
+    
+     .fields{
+        display: 
+        flex;
+     }
+     .spo2, .respi,.bp, .temp,.pules{
+        width: 20%;
+     }
+    .det1{
+        display: flex;
+    }
+    .det1 p{
+        width: 33%;
+    }
+    .det2{
+        display: flex;
+    }
+    .det2 p{
+        width: 25%;
+    }
+    .pain1, .pain2{
+        display: flex;
+    
+    }
+    .pain1 p{
+    width: 33%;
+    }
+    .pain2 p{
+        width: 25%;
+    }
+    .psy1, .psy2{
+        display: flex;
+    }
+    .psy1 p , .psy2 p{
+        width: 25%;
+    }
+    .acti {
+        display: flex;
+    }
+    .acti p{
+        width: 25%;
+    }
+    .soc1{
+        display: flex;
+    }
+    .soc1 p{
+        width: 33%;
+    }
+    .drk1{
+        display: flex;
+    }
+    .drk1 p{
+        width: 50%;
+    }

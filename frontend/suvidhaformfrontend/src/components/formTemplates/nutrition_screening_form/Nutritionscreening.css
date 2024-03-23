@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header {
+    display: flex;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .heading h1 {
+    font-size: 22px;
+    font-weight: 600;
+    word-spacing: 10px;
+  }
+  .heading p {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+  }
+  .logo img {
+    width: 150px;
+    height: 70px;
+  }
+  
+  .seprator {
+    height: 2px;
+    background-color: black;
+  }
+  
+  .form-container {
+    margin: 0px 20px;
+  }
+  
+  .form-heading h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin:0;
+  }
+  .line1 {
+    display: flex;
+  }
+  
+  .line1 > div {
+    margin: 0px;
+  }
+  
+  p {
+    margin: 0; /* Remove default paragraph margin */
+  }
+
+  .name {
+    width: 50%; /* Take half of the screen width */
+  }
+  
+  .doctor {
+    width: 50%; /* Take remaining half (divided into two equal parts) */
+  }
+  .serial{
+    width: 100%;
+  }
+
+  .diagnosis{
+    width: 100%;
+  }
+
+  .local{
+    width: 100%;
+  }
+
+  .sonof{
+    width: 100%;
+  }
+
+  .list4 ol li{
+    margin-left: 25px;
+    padding: 5px;
+  }
+  .width tr th{
+    text-align: center;
+    border: 1px solid black;
+
+  }
+
+  .width tr td{
+    text-align: center;
+    border: 1px solid black;
+  }
+   
+
+
+   
